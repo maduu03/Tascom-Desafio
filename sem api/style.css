@@ -1,0 +1,771 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* --------------------- barra superior ---------------------*/
+.barra_superior{
+    position: absolute;
+    width: 100%;
+    height: 205px;
+    left: 0px;
+    top: 0px;
+    
+    background: url(https://s3-alpha-sig.figma.com/img/c286/1550/122878206d04fddd76ea3a1f6cb548f9?Expires=1669593600&Signature=PYxZMIOdpJ0hLWNORbze3XyLtupvELjvSM1Gqr5jplrtVpt6eZtn7UHOQnKLKf4ayLkGZGT1GZXTvVShrjjO-DCDFXMsZoItMqIWljbqhIb7Yf23zpSk04JQ5Zg0Bdo~Zv0VyKmPlfZe1I4Dd5RImQIp2foebc6h9CS7ECADjMtdn9AGuqW4PY2CypfW~uYX1PJk99ys9PsL7vS2-ayK-i9BAD5FemnKzyyZDedaBrSbPxKOCOILpQzz1bGezg9X~pHBtAF-JboFMlkEP-xabaLuzCGhH9QL0Vt~UViSdZ4mHTfmTLzhb4OgFMLV5M80wChD62gLeLsalk0yVJG68Q__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA), linear-gradient(268.2deg, rgba(0, 0, 0, 0.9) 24.89%, rgba(0, 56, 56, 0.9) 72.94%), url(https://s3-alpha-sig.figma.com/img/e147/f7dd/57edfe94b396cc8d5dceb05c4555cb50?Expires=1669593600&Signature=ds8MMIHGDIhcIfKatw6A1p4OSHJEs7jStew4oUqXSNsK5zxmdk0K7GJbhgpse9zDOGdeLsiGNuXGYKeCJhTXprFR-~lDFqNCU0Cs7mdSYTM6RpHWlslY3PIumATpSTGQQ~t08R3-wurtYqtpVpKA6LwgGd7AnOesCrBNg~C0ZZWW36o2Nwi7hXVDS1ZW6sVOXRH9LZ-7OTxtIJdPC75fkMhK1plokL3-S~qPTYGOQQvOvyKuf64~dY59i6IfQwwJSS75yP9~kM6y-3QKnMdd-SJZGw5PfGy~NQvglAa-soiFKpDe-P2skCZCEE-YuhW5ftPPbL9kNynjoo1SUMY66w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+}
+
+.stay{
+    position: absolute;
+    width: 112px;
+    height: 13px;
+    left: 650px;
+    top: 55px;
+
+    font-family: 400 - 500 - 700 / Italic-Bold / Bold / Medium / Regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.12em;
+
+    color: #FFFFFF;
+}
+
+.tascom{
+    position: absolute;
+    width: 163px;
+    height: 44px;
+    left: 639px;
+    top: 79px;
+
+    font-family: 400 - 500 - 700 / Italic-Bold / Bold / Medium / Regular;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+
+}
+
+.summary{
+    position: absolute;
+    width: 327px;
+    height: 21px;
+    left: 607px;
+    top: 134px;
+    
+    font-family: 400 - 500 - 700 / Italic-Bold / Bold / Medium / Regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    align-items: center;
+    font-variant: small-caps;
+    
+    color: #FFFFFF;
+}
+
+.mini_text{
+    position: absolute;
+    width: 129px;
+    height: 9px;
+    left: 200px;
+    top: 250px;
+
+    font-family: 400 - 500 - 700 / Italic-Bold / Bold / Medium / Regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.12em;
+    font-variant: small-caps;
+
+    color: #53C8A4;
+}
+
+.subtitulo {
+    position: absolute;
+    width: 371px;
+    height: 26px;
+    left: 200px;
+    top: 260px;
+
+    font-family: 400 - 500 - 700 / Italic-Bold / Bold / Medium / Regular;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+
+    color: #003838;
+
+}
+
+/* --------------------- card maior ---------------------*/
+.card{
+    position: absolute;
+    width: 940px;
+    height: 222px;
+    left: 200px;
+    top: 330px;
+
+    border: 1px solid;
+    border-color: rgba(83, 200, 164, 0.5);
+    border-radius: 10px;
+}
+
+.numbers_1 {
+    position: absolute;
+    width: 149px;
+    height: 17px;
+    left: 30px;
+    top: 50px;
+    
+    font-family: 400 - 500 - 700 / Italic-Bold / Bold / Medium / Regular;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    font-variant: small-caps;
+    
+    color: #003838;
+}
+
+.subs_1 {
+    position: absolute;
+    width: 104px;
+    height: 9px;
+    left: 35px;
+    top: 80px;
+    
+    font-family: 400 - 500 - 700 / Italic-Bold / Bold / Medium / Regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    font-variant: small-caps;
+    
+    color: #53C8A4;
+    
+}
+
+.numbers_2 {
+    position: absolute;
+    width: 149px;
+    height: 17px;
+    left: 30px;
+    top: 120px;
+    
+    font-family: 400 - 500 - 700 / Italic-Bold / Bold / Medium / Regular;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    font-variant: small-caps;
+    
+    color: #003838;
+}
+
+.subs_2 {
+    position: absolute;
+    width: 104px;
+    height: 9px;
+    left: 35px;
+    top: 150px;
+    
+    font-family: 400 - 500 - 700 / Italic-Bold / Bold / Medium / Regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    font-variant: small-caps;
+    
+    color: #53C8A4;
+    
+}
+
+.numbers_3 {
+    position: absolute;
+    width: 38px;
+    height: 9px;
+    left: 250px;
+    top: 50px;
+    
+    font-family: 400 - 500 - 700 / Italic-Bold / Bold / Medium / Regular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    font-variant: small-caps;
+    
+    color: #003838;
+}
+
+.subs_3 {
+    position: absolute;
+    width: 100px;
+    height: 5px;
+    left: 250px;
+    top: 65px;
+    
+    font-family: 400 - 500 - 700 / Italic-Bold / Bold / Medium / Regular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 10px;
+    display: flex;
+    align-items: center;
+    font-variant: small-caps;
+    
+    color: #53C8A4;
+}
+
+.numbers_4 {
+    position: absolute;
+    width: 38px;
+    height: 9px;
+    left: 250px;
+    top: 85px;
+    
+    font-family: 400 - 500 - 700 / Italic-Bold / Bold / Medium / Regular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    font-variant: small-caps;
+    
+    color: #003838;
+}
+
+.subs_4 {
+    position: absolute;
+    width: 100px;
+    height: 5px;
+    left: 250px;
+    top: 100px;
+    
+    font-family: 400 - 500 - 700 / Italic-Bold / Bold / Medium / Regular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 10px;
+    display: flex;
+    align-items: center;
+    font-variant: small-caps;
+    
+    color: #53C8A4;
+}
+
+.numbers_5 {
+    position: absolute;
+    width: 38px;
+    height: 9px;
+    left: 250px;
+    top: 120px;
+    
+    font-family: 400 - 500 - 700 / Italic-Bold / Bold / Medium / Regular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    font-variant: small-caps;
+    
+    color: #003838;
+}
+
+.subs_5 {
+    position: absolute;
+    width: 100px;
+    height: 5px;
+    left: 250px;
+    top: 135px;
+    
+    font-family: 400 - 500 - 700 / Italic-Bold / Bold / Medium / Regular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 10px;
+    display: flex;
+    align-items: center;
+    font-variant: small-caps;
+    
+    color: #53C8A4;
+}
+
+.numbers_6 {
+    position: absolute;
+    width: 38px;
+    height: 9px;
+    left: 252px;
+    top: 155px;
+    
+    font-family: 400 - 500 - 700 / Italic-Bold / Bold / Medium / Regular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    font-variant: small-caps;
+    
+    color: #003838;
+}
+
+.subs_6 {
+    position: absolute;
+    width: 100px;
+    height: 5px;
+    left: 250px;
+    top: 170px;
+    
+    font-family: 400 - 500 - 700 / Italic-Bold / Bold / Medium / Regular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 10px;
+    display: flex;
+    align-items: center;
+    font-variant: small-caps;
+    
+    color: #53C8A4;
+}
+
+.chose{
+    position: absolute;
+    width: 468px;
+    height: 45px;
+    left: 450px;
+    top: 60px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 45px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+}
+
+.sub_in_card{
+    position: absolute;
+    width: 190px;
+    height: 16px;
+    left: 590px;
+    top: 120px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    
+    color: #000000;
+}
+
+.fonte{
+    position: absolute;
+    left: 30px;
+    top: 200px;
+    bottom: 48.44%;
+    
+    font-family: 400 - 500 - 700 / Italic-Bold / Bold / Medium / Regular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 10px;
+    display: flex;
+    align-items: center;
+    font-variant: small-caps;
+    
+    color: #003838;
+}
+
+.mini_text_2{
+    position: absolute;
+    width: 129px;
+    height: 9px;
+    left: 200px;
+    top: 570px;
+
+    font-family: 400 - 500 - 700 / Italic-Bold / Bold / Medium / Regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.12em;
+    font-variant: small-caps;
+
+    color: #53C8A4;
+}
+
+.subtitulo_2 {
+    position: absolute;
+    width: 471px;
+    height: 26px;
+    left: 200px;
+    top: 579px;
+
+    font-family: 400 - 500 - 700 / Italic-Bold / Bold / Medium / Regular;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+
+    color: #003838;
+
+}
+
+/* --------------------- mini cards card --------------------- */
+.mini_card_1 {
+    position: absolute;
+    width: 220px;
+    height: 222px;
+    left: 200px;
+    right: 0%;
+    top: 650px;
+    bottom: 0%;
+    
+    border: 1px solid;
+    border-color: rgba(83, 200, 164, 0.5);
+    border-radius: 10px;
+}
+
+/* segundo card */
+.mini_card_2 {
+    position: absolute;
+    width: 220px;
+    height: 222px;
+    left: 450px;
+    right: 0%;
+    top: 650px;
+    bottom: 0%;
+    
+    border: 1px solid;
+    border-color: rgba(83, 200, 164, 0.5);
+    border-radius: 10px;
+}
+
+/* terceiro card */
+.mini_card_3 {
+    position: absolute;
+    width: 220px;
+    height: 222px;
+    left: 700px;
+    top: 650px;
+    
+    border: 1px solid;
+    border-color: rgba(83, 200, 164, 0.5);
+    border-radius: 10px;
+}
+
+/*quarto card*/
+.mini_card_4 {
+    position: absolute;
+    width: 220px;
+    height: 222px;
+    left: 950px;
+    top: 650px;
+    
+    border: 1px solid;
+    border-color: rgba(83, 200, 164, 0.5);
+    border-radius: 10px;
+}
+
+/* --------------------- Fontes dos mini cards --------------------- */
+
+.fonte_1{
+    position: absolute;
+    left: 70px;
+    top: 2px;
+    
+    font-family: 400 - 500 - 700 / Italic-Bold / Bold / Medium / Regular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 10px;
+    display: flex;
+    align-items: center;
+    font-variant: small-caps;
+    
+    color: #003838;
+}
+
+.uf{
+    position: absolute;
+    left: 62px;
+    top: 10px;
+    
+    font-family: 400 - 500 - 700 / Italic-Bold / Bold / Medium / Regular;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    font-variant: small-caps;
+    
+    color: #003838;
+}
+
+.num_1_1{
+    position: absolute;
+    left: 78px;
+    top: 35px;
+    
+    font-family: 400 - 500 - 700 / Italic-Bold / Bold / Medium / Regular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    font-variant: small-caps;
+    
+    color: #003838;
+}
+
+.confirmed_cases_1{
+
+    position: absolute;
+    left: 65px;
+    top: 50px;
+
+    font-family: 400 - 500 - 700 / Italic-Bold / Bold / Medium / Regular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    font-variant: small-caps;
+
+    color: #53C8A4;
+
+}
+
+.num_1_2{
+    position: absolute;
+    left: 77px;
+    top: 65px;
+    
+    font-family: 400 - 500 - 700 / Italic-Bold / Bold / Medium / Regular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    font-variant: small-caps;
+    
+    color: #003838;
+}
+
+.cases_of_death_1{
+    position: absolute;
+    left: 68px;
+    top: 78px;
+    
+    font-family: 400 - 500 - 700 / Italic-Bold / Bold / Medium / Regular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    font-variant: small-caps;
+    
+    color: #53C8A4;
+}
+
+.line{
+    position: absolute;
+    left: 18px;
+    top: 85px;
+    
+    font-family: 400 - 500 - 700 / Italic-Bold / Bold / Medium / Regular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    font-variant: small-caps;
+    
+    color: rgba(83, 200, 164, 0.13);
+}
+
+.num_1_3{
+    position: absolute;
+    left: 18px;
+    top: 115px;
+
+    font-family: 400 - 500 - 700 / Italic-Bold / Bold / Medium / Regular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    font-variant: small-caps;
+
+    color: #003838;
+}
+
+.new_deaths_1{
+    position: absolute;
+    left: 18px;
+    top: 135px;
+    
+    font-family: 400 - 500 - 700 / Italic-Bold / Bold / Medium / Regular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 10px;
+    display: flex;
+    align-items: center;
+    font-variant: small-caps;
+    
+    color: #53C8A4;
+}
+
+.num_1_4{
+    position: absolute;
+    left: 140px;
+    top: 115px;
+    
+    font-family: 400 - 500 - 700 / Italic-Bold / Bold / Medium / Regular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    font-variant: small-caps;
+    
+    color: #003838;
+}
+
+.new_recovereds{
+    position: absolute;
+    left: 140px;
+    top: 135px;
+    
+    font-family: 400 - 500 - 700 / Italic-Bold / Bold / Medium / Regular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 10px;
+    display: flex;
+    align-items: center;
+    font-variant: small-caps;
+    
+    color: #53C8A4;
+}
+
+.num_1_5{
+    position: absolute;
+    left: 18px;
+    top: 155px;
+    
+    font-family: 400 - 500 - 700 / Italic-Bold / Bold / Medium / Regular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    font-variant: small-caps;
+    
+    color: #003838;
+}
+
+.new_confirmeds_1{
+    position: absolute;
+    left: 18px;
+    top: 175px;
+    
+    font-family: 400 - 500 - 700 / Italic-Bold / Bold / Medium / Regular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 10px;
+    
+    display: flex;
+    align-items: center;
+    font-variant: small-caps;
+    
+    color: #53C8A4;
+}
+
+.num_1_6{
+    position: absolute;
+    left: 140px;
+    top: 155px;
+    
+    font-family: 400 - 500 - 700 / Italic-Bold / Bold / Medium / Regular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    font-variant: small-caps;
+    
+    color: #003838;
+}
+
+.total_recovereds_1{
+    position: absolute;
+    left: 140px;
+    top: 175px;
+    
+    font-family: 400 - 500 - 700 / Italic-Bold / Bold / Medium / Regular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 10px;
+    display: flex;
+    align-items: center;
+    font-variant: small-caps;
+    
+    color: #53C8A4;
+}
+
+
+/* -------------- footer -------------- */
+.footer {
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    left: 0px;
+    top: 954px;
+    
+    background: #003838;
+}
